@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pedro.vaz/Documents/mlprojects/udacity_mlops/machine_learning_pipelines/lesson_1/mlruns/0/a3ba12aed72140328c51ed6c907ca079/artifacts
+end_time: 1642803869711
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: a3ba12aed72140328c51ed6c907ca079
+run_uuid: a3ba12aed72140328c51ed6c907ca079
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1642803820593
+status: 3
+tags: []
+user_id: pedro.vaz
