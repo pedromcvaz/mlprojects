@@ -1,0 +1,31 @@
+{
+    "os": "Linux-5.4.0-94-generic-x86_64-with-glibc2.10",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-01-22T22:52:38.831659",
+    "startedAt": "2022-01-22T22:52:37.093788",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--input_artifact",
+        "iris.csv:latest",
+        "--artifact_name",
+        "cleaned_data",
+        "--artifact_type",
+        "cleaned_data",
+        "--artifact_description",
+        "Cleaned data after preprocessing"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "udacity_mlops/machine_learning_pipelines/lesson_1/exercise_3/process_data/run.py",
+    "git": {
+        "remote": "https://github.com/pedromcvaz/mlprojects.git",
+        "commit": "3f90f88a249f1244c5d959768381233ce7e0c311"
+    },
+    "email": "pedro.vaz@feedzai.com",
+    "root": "/home/pedro.vaz/Documents/mlprojects",
+    "host": "laptop-2192",
+    "username": "pedro.vaz",
+    "executable": "/home/pedro.vaz/miniconda3/envs/mlflow-e6332aec18d48649ece3fb9badf18ee667837414/bin/python"
+}
