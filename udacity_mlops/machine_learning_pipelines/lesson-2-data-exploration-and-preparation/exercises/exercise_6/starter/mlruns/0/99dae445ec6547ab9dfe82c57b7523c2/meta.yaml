@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pedro.vaz/Documents/mlprojects/udacity_mlops/machine_learning_pipelines/lesson-2-data-exploration-and-preparation/exercises/exercise_6/starter/mlruns/0/99dae445ec6547ab9dfe82c57b7523c2/artifacts
+end_time: 1643072882353
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 99dae445ec6547ab9dfe82c57b7523c2
+run_uuid: 99dae445ec6547ab9dfe82c57b7523c2
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1643072870102
+status: 4
+tags: []
+user_id: pedro.vaz

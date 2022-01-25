@@ -1,0 +1,31 @@
+{
+    "os": "Linux-5.4.0-94-generic-x86_64-with-glibc2.10",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-01-21T22:24:21.204324",
+    "startedAt": "2022-01-21T22:24:20.074249",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--file_url",
+        "https://raw.githubusercontent.com/scikit-learn/scikit-learn/4dfdfb4e1bb3719628753a4ece995a1b2fa5312a/sklearn/datasets/data/iris.csv",
+        "--artifact_name",
+        "iris",
+        "--artifact_type",
+        "raw_data",
+        "--artifact_description",
+        "The sklearn IRIS dataset"
+    ],
+    "state": "running",
+    "program": "download_data.py",
+    "codePath": "udacity_mlops/machine_learning_pipelines/lesson_1/exercise_2/download_data.py",
+    "git": {
+        "remote": "https://github.com/pedromcvaz/mlprojects.git",
+        "commit": "49a0d57c684343aa8cc655475d41e335c8d20a65"
+    },
+    "email": "pedro.vaz@feedzai.com",
+    "root": "/home/pedro.vaz/Documents/mlprojects",
+    "host": "laptop-2192",
+    "username": "pedro.vaz",
+    "executable": "/home/pedro.vaz/miniconda3/envs/mlflow-c0d706ccc6af6cb41a673bebebe4812cabb9f6eb/bin/python"
+}

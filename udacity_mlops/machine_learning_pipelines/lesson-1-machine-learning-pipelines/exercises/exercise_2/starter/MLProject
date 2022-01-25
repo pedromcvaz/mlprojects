@@ -1,0 +1,26 @@
+name: download_data
+conda_env: conda.yml
+
+entry_points:
+  main:
+    parameters:
+      file_url:
+        description: URL of the file to download
+        type: uri
+      artifact_name:
+        description: Name for the W&B artifact that will be created
+        type: str
+      artifact_type:
+        description: The type of the artifact
+        type: str
+        default: raw_data
+      artifact_description:
+        description: Description of the artifact
+        type: str
+
+    command: >-
+      python download_data.py \
+       --file_url https://raw.githubusercontent.com/scikit-learn/scikit-learn/4dfdfb4e1bb3719628753a4ece995a1b2fa5312a/sklearn/datasets/data/iris.csv \
+       --artifact_name iris \
+       --artifact_type raw_data \
+       --artifact_description "The sklearn IRIS dataset"

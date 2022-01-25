@@ -1,0 +1,24 @@
+{
+    "os": "Linux-5.4.0-94-generic-x86_64-with-glibc2.27",
+    "python": "3.9.9",
+    "heartbeatAt": "2022-01-24T23:54:13.337180",
+    "startedAt": "2022-01-24T23:54:11.932025",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/home/pedro.vaz/.local/share/jupyter/runtime/kernel-40599f03-1e72-428e-ad25-542d647d2d5e.json"
+    ],
+    "state": "running",
+    "program": "EDA.ipynb",
+    "root": "/home/pedro.vaz/Documents/mlprojects",
+    "git": {
+        "remote": "https://github.com/pedromcvaz/mlprojects.git",
+        "commit": "8133f2a58965c8a1fd2c83a1d0108ea654fa016f"
+    },
+    "email": "pedro.vaz@feedzai.com",
+    "host": "laptop-2192",
+    "username": "pedro.vaz",
+    "executable": "/home/pedro.vaz/miniconda3/envs/mlflow-51a201f2a8eac0601d78afdf58767b0a4aa0f41a/bin/python3.9"
+}
