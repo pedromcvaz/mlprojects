@@ -1,0 +1,25 @@
+{
+    "os": "Linux-5.4.0-94-generic-x86_64-with-glibc2.27",
+    "python": "3.9.9",
+    "heartbeatAt": "2022-01-25T22:47:48.650938",
+    "startedAt": "2022-01-25T22:47:46.976115",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "-s",
+        "-vv",
+        "."
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/pedromcvaz/mlprojects.git",
+        "commit": "9164a1732bfc5bdc612f587a3c2e666dc9cc50f2"
+    },
+    "email": "pedro.vaz@feedzai.com",
+    "root": "/home/pedro.vaz/Documents/mlprojects",
+    "host": "laptop-2192",
+    "username": "pedro.vaz",
+    "executable": "/home/pedro.vaz/miniconda3/envs/mlflow-7398531e5288219e428182dc4d6601ae57991d39/bin/python"
+}

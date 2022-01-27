@@ -10,7 +10,7 @@ run = wandb.init(project="exercise_7", job_type="data_tests")
 @pytest.fixture(scope="session")
 def data():
 
-    local_path = run.use_artifact("exercise_5/preprocessed_data.csv:latest").file()
+    local_path = run.use_artifact("exercise_5/preprocessed_data:latest").file()
     df = pd.read_csv(local_path, low_memory=False)
 
     return df
@@ -67,12 +67,7 @@ def test_class_names(data):
         "hardstyle",
     ]
 
-    # YOUR CODE HERE: implement a test that checks the "genre" column to make sure
-    # that the class names are legal
-    # HINT: you can use the .isin method of pandas, and .all to check that the condition
-    # is true for every row. For example, df['one'].isin(['a','b','c']).all() is True if
-    # all values in column "one" are contained in the list 'a', 'b', 'c'
-
+    assert data["genre"].isin(known_classes).all()
 
 def test_column_ranges(data):
 
@@ -92,7 +87,7 @@ def test_column_ranges(data):
     }
 
     for col_name, (minimum, maximum) in ranges.items():
-        # YOUR CODE HERE: check that the values in the column col_name are within the expected range
-        # HINT: look at the .between method of pandas, and then use .all() like in the previous
-        # test
-        pass
+        assert data[col_name].dropna().between(minimum, maximum).all(), (
+        f"Column {col_name} failed the test. Should be between {minimum} and {maximum}, "
+        f"instead min={data[col_name].min()} and max={data[col_name].max()}")
+

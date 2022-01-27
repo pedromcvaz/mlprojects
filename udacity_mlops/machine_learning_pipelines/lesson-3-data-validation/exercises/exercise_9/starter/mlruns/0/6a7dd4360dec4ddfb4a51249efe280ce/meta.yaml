@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pedro.vaz/Documents/mlprojects/udacity_mlops/machine_learning_pipelines/lesson-3-data-validation/exercises/exercise_9/starter/mlruns/0/6a7dd4360dec4ddfb4a51249efe280ce/artifacts
+end_time: 1643236919114
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 6a7dd4360dec4ddfb4a51249efe280ce
+run_uuid: 6a7dd4360dec4ddfb4a51249efe280ce
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1643236899374
+status: 3
+tags: []
+user_id: pedro.vaz
