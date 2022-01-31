@@ -1,0 +1,7 @@
+2022-01-30 22:50:38,240 INFO    MainThread:25355 [internal.py:wandb_internal():88] W&B internal server running at pid: 25355, started at: 2022-01-30 22:50:38.239942
+2022-01-30 22:50:38,267 DEBUG   SenderThread:25355 [sender.py:send():122] send: header
+2022-01-30 22:50:38,268 INFO    WriterThread:25355 [datastore.py:open_for_write():77] open: /home/pedro.vaz/Documents/mlprojects/udacity_mlops/machine_learning_pipelines/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220130_225036-1pojfovx/run-1pojfovx.wandb
+2022-01-30 22:50:38,268 DEBUG   HandlerThread:25355 [handler.py:handle_request():101] handle_request: check_version
+2022-01-30 22:50:38,269 DEBUG   SenderThread:25355 [sender.py:send():122] send: request
+2022-01-30 22:50:38,269 DEBUG   SenderThread:25355 [sender.py:send_request():131] send_request: check_version
+2022-01-30 22:50:38,645 DEBUG   SenderThread:25355 [sender.py:send():122] send: run

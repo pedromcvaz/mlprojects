@@ -1,0 +1,40 @@
+2022-01-30 22:49:59,312 INFO    MainThread:24919 [internal.py:wandb_internal():88] W&B internal server running at pid: 24919, started at: 2022-01-30 22:49:59.312522
+2022-01-30 22:49:59,323 DEBUG   HandlerThread:24919 [handler.py:handle_request():101] handle_request: check_version
+2022-01-30 22:49:59,323 INFO    WriterThread:24919 [datastore.py:open_for_write():77] open: /home/pedro.vaz/Documents/mlprojects/udacity_mlops/machine_learning_pipelines/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220130_224957-gyxzl66s/run-gyxzl66s.wandb
+2022-01-30 22:49:59,323 DEBUG   SenderThread:24919 [sender.py:send():122] send: header
+2022-01-30 22:49:59,324 DEBUG   SenderThread:24919 [sender.py:send():122] send: request
+2022-01-30 22:49:59,324 DEBUG   SenderThread:24919 [sender.py:send_request():131] send_request: check_version
+2022-01-30 22:49:59,614 DEBUG   SenderThread:24919 [sender.py:send():122] send: run
+2022-01-30 22:50:00,032 INFO    SenderThread:24919 [sender.py:_start_run_threads():596] run started: gyxzl66s with start time 1643582997
+2022-01-30 22:50:00,032 DEBUG   SenderThread:24919 [sender.py:send():122] send: summary
+2022-01-30 22:50:00,033 INFO    SenderThread:24919 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2022-01-30 22:50:00,035 DEBUG   HandlerThread:24919 [handler.py:handle_request():101] handle_request: run_start
+2022-01-30 22:50:00,042 DEBUG   HandlerThread:24919 [meta.py:__init__():34] meta init
+2022-01-30 22:50:00,042 DEBUG   HandlerThread:24919 [meta.py:__init__():48] meta init done
+2022-01-30 22:50:00,042 DEBUG   HandlerThread:24919 [meta.py:probe():190] probe
+2022-01-30 22:50:00,047 DEBUG   HandlerThread:24919 [meta.py:_setup_git():180] setup git
+2022-01-30 22:50:00,157 DEBUG   HandlerThread:24919 [meta.py:_setup_git():187] setup git done
+2022-01-30 22:50:00,158 DEBUG   HandlerThread:24919 [meta.py:_save_pip():52] save pip
+2022-01-30 22:50:00,159 DEBUG   HandlerThread:24919 [meta.py:_save_pip():66] save pip done
+2022-01-30 22:50:00,159 DEBUG   HandlerThread:24919 [meta.py:probe():231] probe done
+2022-01-30 22:50:00,174 DEBUG   SenderThread:24919 [sender.py:send():122] send: files
+2022-01-30 22:50:00,175 INFO    SenderThread:24919 [sender.py:_save_file():730] saving file wandb-metadata.json with policy now
+2022-01-30 22:50:00,195 DEBUG   HandlerThread:24919 [handler.py:handle_request():101] handle_request: status
+2022-01-30 22:50:00,196 DEBUG   SenderThread:24919 [sender.py:send():122] send: request
+2022-01-30 22:50:00,196 DEBUG   SenderThread:24919 [sender.py:send_request():131] send_request: status
+2022-01-30 22:50:02,584 DEBUG   SenderThread:24919 [sender.py:send():122] send: config
+2022-01-30 22:50:03,358 DEBUG   SenderThread:24919 [sender.py:send():122] send: stats
+2022-01-30 22:50:07,772 DEBUG   SenderThread:24919 [sender.py:send():122] send: stats
+2022-01-30 22:50:12,190 DEBUG   SenderThread:24919 [sender.py:send():122] send: stats
+2022-01-30 22:50:16,002 DEBUG   HandlerThread:24919 [handler.py:handle_request():101] handle_request: status
+2022-01-30 22:50:16,002 DEBUG   SenderThread:24919 [sender.py:send():122] send: request
+2022-01-30 22:50:16,002 DEBUG   SenderThread:24919 [sender.py:send_request():131] send_request: status
+2022-01-30 22:50:16,606 DEBUG   SenderThread:24919 [sender.py:send():122] send: stats
+2022-01-30 22:50:21,017 DEBUG   SenderThread:24919 [sender.py:send():122] send: stats
+2022-01-30 22:50:25,436 DEBUG   SenderThread:24919 [sender.py:send():122] send: stats
+2022-01-30 22:50:29,849 DEBUG   SenderThread:24919 [sender.py:send():122] send: stats
+2022-01-30 22:50:31,548 DEBUG   HandlerThread:24919 [handler.py:handle_request():101] handle_request: status
+2022-01-30 22:50:31,549 DEBUG   SenderThread:24919 [sender.py:send():122] send: request
+2022-01-30 22:50:31,549 DEBUG   SenderThread:24919 [sender.py:send_request():131] send_request: status
+2022-01-30 22:50:34,269 DEBUG   SenderThread:24919 [sender.py:send():122] send: stats
+2022-01-30 22:50:38,684 DEBUG   SenderThread:24919 [sender.py:send():122] send: stats

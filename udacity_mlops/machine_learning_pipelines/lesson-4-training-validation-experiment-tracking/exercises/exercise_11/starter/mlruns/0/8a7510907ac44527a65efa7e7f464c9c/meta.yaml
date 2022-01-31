@@ -1,0 +1,15 @@
+artifact_uri: file:///home/pedro.vaz/Documents/mlprojects/udacity_mlops/machine_learning_pipelines/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/mlruns/0/8a7510907ac44527a65efa7e7f464c9c/artifacts
+end_time: 1643582298999
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: 8a7510907ac44527a65efa7e7f464c9c
+run_uuid: 8a7510907ac44527a65efa7e7f464c9c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1643582284832
+status: 3
+tags: []
+user_id: pedro.vaz

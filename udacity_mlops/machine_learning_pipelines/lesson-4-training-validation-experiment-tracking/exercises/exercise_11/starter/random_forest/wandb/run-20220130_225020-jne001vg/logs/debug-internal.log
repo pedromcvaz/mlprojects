@@ -1,0 +1,31 @@
+2022-01-30 22:50:22,025 INFO    MainThread:25219 [internal.py:wandb_internal():88] W&B internal server running at pid: 25219, started at: 2022-01-30 22:50:22.025263
+2022-01-30 22:50:22,062 DEBUG   SenderThread:25219 [sender.py:send():122] send: header
+2022-01-30 22:50:22,062 INFO    WriterThread:25219 [datastore.py:open_for_write():77] open: /home/pedro.vaz/Documents/mlprojects/udacity_mlops/machine_learning_pipelines/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/wandb/run-20220130_225020-jne001vg/run-jne001vg.wandb
+2022-01-30 22:50:22,067 DEBUG   HandlerThread:25219 [handler.py:handle_request():101] handle_request: check_version
+2022-01-30 22:50:22,068 DEBUG   SenderThread:25219 [sender.py:send():122] send: request
+2022-01-30 22:50:22,068 DEBUG   SenderThread:25219 [sender.py:send_request():131] send_request: check_version
+2022-01-30 22:50:22,524 DEBUG   SenderThread:25219 [sender.py:send():122] send: run
+2022-01-30 22:50:23,050 DEBUG   HandlerThread:25219 [handler.py:handle_request():101] handle_request: run_start
+2022-01-30 22:50:23,059 DEBUG   HandlerThread:25219 [meta.py:__init__():34] meta init
+2022-01-30 22:50:23,059 DEBUG   HandlerThread:25219 [meta.py:__init__():48] meta init done
+2022-01-30 22:50:23,059 DEBUG   HandlerThread:25219 [meta.py:probe():190] probe
+2022-01-30 22:50:23,062 DEBUG   HandlerThread:25219 [meta.py:_setup_git():180] setup git
+2022-01-30 22:50:23,124 INFO    SenderThread:25219 [sender.py:_start_run_threads():596] run started: jne001vg with start time 1643583020
+2022-01-30 22:50:23,125 DEBUG   SenderThread:25219 [sender.py:send():122] send: summary
+2022-01-30 22:50:23,126 INFO    SenderThread:25219 [sender.py:_save_file():730] saving file wandb-summary.json with policy end
+2022-01-30 22:50:23,136 DEBUG   HandlerThread:25219 [meta.py:_setup_git():187] setup git done
+2022-01-30 22:50:23,136 DEBUG   HandlerThread:25219 [meta.py:_save_pip():52] save pip
+2022-01-30 22:50:23,137 DEBUG   HandlerThread:25219 [meta.py:_save_pip():66] save pip done
+2022-01-30 22:50:23,137 DEBUG   HandlerThread:25219 [meta.py:probe():231] probe done
+2022-01-30 22:50:23,156 DEBUG   SenderThread:25219 [sender.py:send():122] send: files
+2022-01-30 22:50:23,156 INFO    SenderThread:25219 [sender.py:_save_file():730] saving file wandb-metadata.json with policy now
+2022-01-30 22:50:23,184 DEBUG   HandlerThread:25219 [handler.py:handle_request():101] handle_request: status
+2022-01-30 22:50:23,184 DEBUG   SenderThread:25219 [sender.py:send():122] send: request
+2022-01-30 22:50:23,184 DEBUG   SenderThread:25219 [sender.py:send_request():131] send_request: status
+2022-01-30 22:50:25,303 DEBUG   SenderThread:25219 [sender.py:send():122] send: config
+2022-01-30 22:50:26,392 DEBUG   SenderThread:25219 [sender.py:send():122] send: stats
+2022-01-30 22:50:30,807 DEBUG   SenderThread:25219 [sender.py:send():122] send: stats
+2022-01-30 22:50:35,221 DEBUG   SenderThread:25219 [sender.py:send():122] send: stats
+2022-01-30 22:50:38,603 DEBUG   HandlerThread:25219 [handler.py:handle_request():101] handle_request: status
+2022-01-30 22:50:38,603 DEBUG   SenderThread:25219 [sender.py:send():122] send: request
+2022-01-30 22:50:38,603 DEBUG   SenderThread:25219 [sender.py:send_request():131] send_request: status

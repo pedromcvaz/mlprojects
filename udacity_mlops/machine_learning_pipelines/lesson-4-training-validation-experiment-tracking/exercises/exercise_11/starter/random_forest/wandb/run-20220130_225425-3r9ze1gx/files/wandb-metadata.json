@@ -1,0 +1,27 @@
+{
+    "os": "Linux-5.4.0-94-generic-x86_64-with-glibc2.10",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-01-30T22:54:28.019494",
+    "startedAt": "2022-01-30T22:54:25.420918",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [
+        "--train_data",
+        "exercise_6/data_train.csv:latest",
+        "--model_config",
+        "/home/pedro.vaz/Documents/mlprojects/udacity_mlops/machine_learning_pipelines/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/multirun/2022-01-30/22-54-09/1/random_forest_config.yml"
+    ],
+    "state": "running",
+    "program": "run.py",
+    "codePath": "udacity_mlops/machine_learning_pipelines/lesson-4-training-validation-experiment-tracking/exercises/exercise_11/starter/random_forest/run.py",
+    "git": {
+        "remote": "https://github.com/pedromcvaz/mlprojects.git",
+        "commit": "8a3f345cb27c05ff33fbd4755399e9884ecbd5b5"
+    },
+    "email": "pedro.vaz@feedzai.com",
+    "root": "/home/pedro.vaz/Documents/mlprojects",
+    "host": "laptop-2192",
+    "username": "pedro.vaz",
+    "executable": "/home/pedro.vaz/miniconda3/envs/mlflow-70e71a7afdc413046f59e7b87abd03dc50d8745f/bin/python"
+}
